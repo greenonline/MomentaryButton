@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<HEAD>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title>mButton readme</title>
+	<style type="text/css">
+	<!--
+	.prosign {
+		text-decoration: overline;
+	}
+	[title] {
+		cursor: help;
+		border-bottom: 1px dotted black;
+	}
+	img, a img {
+		border: none;
+	}
+	#license {
+		float: left;
+		margin-right: 1ex;
+	}
+	-->
+</style>
+</HEAD>
+<BODY>
+<h1>MomentaryButton</h1>
+<p>This is a library for Arduino, for a momentary button.</p>
+<p>It encapsulates tracking pushes on a normally-open momentary button.</p>
+<p>After a call to check(), the button may report that it:</p>
+<ul>
+<li>wasClicked(): tapped briefly
+<li>wasHeld(): pressed for a longer period of time (and perhaps still closed)
+</ul>
+<p>The next call to check() will not report on that previous event.</p>
+<p>Any button press >= HOLD_THRESHOLD milliseconds is considered a hold, not a click.</p>
+<h2>Authorship and License</h2>
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" id="license" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a>
+<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>; it is written by <a href="http://www.markfickett.com/">Mark Fickett</a>. (Do <a href="mailto:mark.fickett@gmail.com">let me know</a> if you find it interesting or useful! Or, should you find bugs, a report or a <a href="http://help.github.com/pull-requests/">pull request</a> would be welcome.)</p>
+<h2>Hardware</h2>
+<p>This library is designed for the Arduino hardware</p>
+<h2>Controls and Outputs</h2>
+<p>blank</p>
+<h2>Dependency: Morse Library</h2>
+<p>None.</p>
+</BODY>
+</HTML>

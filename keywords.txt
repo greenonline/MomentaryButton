@@ -1,0 +1,5 @@
+MomentaryButton			KEYWORD1
+setup				KEYWORD2
+check			KEYWORD2
+wasClicked			KEYWORD2
+wasHeld			KEYWORD2
