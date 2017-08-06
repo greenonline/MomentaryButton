@@ -59,3 +59,22 @@ boolean MomentaryButton::wasHeld() {
 	}
 }
 
+// Getters
+        int MomentaryButton::getPin(){return pin;}
+        unsigned long MomentaryButton::getCloseTimeMillis(){return closeTimeMillis;}
+//        boolean MomentaryButton::getWasHeld(){return wasHeld;}
+        boolean MomentaryButton::getWasClosed(){return wasClosed;}
+        boolean MomentaryButton::getHeld(){return held;}
+        boolean MomentaryButton::getClicked(){return clicked;}
+        unsigned long MomentaryButton::getHoldThreshold(){return HOLD_THRESHOLD;}
+        unsigned long MomentaryButton::getBounceThreshold(){return 50;}
+// Setters
+        void MomentaryButton::setCloseTimeMillis(unsigned long value){closeTimeMillis = value;}
+//        void MomentaryButton::setWasHeld(boolean value){wasHeld = value;}
+        void MomentaryButton::setWasClosed(boolean value){wasClosed = value;}
+        void MomentaryButton::setHeld(boolean value){held = value;}
+        void MomentaryButton::setClicked(boolean value){clicked = value;}
+
+
+
+
