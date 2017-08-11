@@ -7,6 +7,6 @@ This work is licensed under a [Creative Commons Attribution 3.0 Unported License
 
 See also on Arduino Playground: [MomentaryButton](https://playground.arduino.cc/Code/MomentaryButton).
 
-A note from Greenonline: I created this separate repository to enable the MomentaryButton library to be downloaded as a .zip.
+A note from Greenonline: I created this separate repository to enable the MomentaryButton library to be downloaded as a .zip, independant of [Bicycle](https://github.com/markfickett/bicycle).
 
 
